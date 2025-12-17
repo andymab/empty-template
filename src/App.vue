@@ -81,7 +81,8 @@ const gameContainerStyle = computed(() => ({
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   display: flex;
   flex-direction: column;
-  max-width: 100vw; /* важно для мобильных, чтобы не казалось уже экрана */
+  max-width: 100vw;
+  /* важно для мобильных, чтобы не казалось уже экрана */
 }
 
 /* верхняя часть: игровое поле 650px */
